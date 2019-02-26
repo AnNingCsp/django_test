@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h4>
+        所有文章
+    </h4>
+    {% for article in all_article  %}
+        <li>{{ article.title }}</li>
+        {% endfor %}
+</body>
+</html>
